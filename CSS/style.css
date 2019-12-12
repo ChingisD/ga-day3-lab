@@ -8,16 +8,46 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    margin-bottom: 20px;
+  }
+.flex-grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: red;
+}
+.flrx-column{
+  display: flex;
+
+}
+
+  .flex-center{
+    justify-content: center;
+  }
+
+  .flex-align-center{
+    align-items;center;
+  }
+
   .box{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: lightblue;
     border: 3px solid blue;
     margin-bottom: 5px;
+    margin-left: 5px;
   }
-  .float {
-    float: left;
+
+  .box-tall{
+    width: 150px;
+    height: 500px;
   }
-.inline {
-  display: inline;
-}
+
+  .row{
+  display: flex;
+  }
